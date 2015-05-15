@@ -1,6 +1,6 @@
 //
 //  ComicPriceTableViewController.m
-//  SwapableContainerViewDemo
+//  SwappableContainerViewDemo
 //
 //  Created by Rob Booth on 5/15/15.
 //  Copyright (c) 2015 Rob Booth. All rights reserved.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A39055B-0764-4DD4-BBD5-DA0304A551AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwappableContainerViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7FA02F8DAB277115A09B940F7404BE7B7722048E</key>
+		<string>https://github.com/eoghain/RBSwappableContainerView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwappableContainerViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7FA02F8DAB277115A09B940F7404BE7B7722048E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eoghain/RBSwappableContainerView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7FA02F8DAB277115A09B940F7404BE7B7722048E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7FA02F8DAB277115A09B940F7404BE7B7722048E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwapableContainerViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

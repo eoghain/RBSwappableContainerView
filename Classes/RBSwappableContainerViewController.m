@@ -1,12 +1,12 @@
 //
-//  RBSwapableContainerViewController.m
-//  SwapableContainerViewDemo
+//  RBSwappableContainerViewController.m
+//  SwappableContainerViewDemo
 //
 //  Created by Rob Booth on 5/14/15.
 //  Copyright (c) 2015 Rob Booth. All rights reserved.
 //
 
-#import "RBSwapableContainerViewController.h"
+#import "RBSwappableContainerViewController.h"
 
 /** A private UIViewControllerContextTransitioning class to be provided transitioning delegates.
  @discussion Because we are a custom UIVievController class, with our own containment implementation, we have to provide an object conforming to the UIViewControllerContextTransitioning protocol. The system view controllers use one provided by the framework, which we cannot configure, let alone create. This class will be used even if the developer provides their own transitioning objects.
@@ -26,13 +26,13 @@
 @end
 
 
-@interface RBSwapableContainerViewController ()
+@interface RBSwappableContainerViewController ()
 
 @property (assign, nonatomic) BOOL isTransitioning;
 
 @end
 
-@implementation RBSwapableContainerViewController
+@implementation RBSwappableContainerViewController
 
 
 #pragma mark - View Lifecycle

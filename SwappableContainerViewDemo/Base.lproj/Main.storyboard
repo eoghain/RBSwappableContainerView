@@ -20,7 +20,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jye-5D-KL2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <connections>
-                                    <segue destination="HBC-Jf-EF6" kind="embed" identifier="embedSwapableViewController" id="lcN-26-EMP"/>
+                                    <segue destination="HBC-Jf-EF6" kind="embed" identifier="embedSwappableViewController" id="lcN-26-EMP"/>
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Iy-jW-ibP">
@@ -173,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="171" y="429"/>
         </scene>
-        <!--Swapable Container View Controller-->
+        <!--Swappable Container View Controller-->
         <scene sceneID="Rd7-gp-aH3">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="HBC-Jf-EF6" customClass="RBSwapableContainerViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="HBC-Jf-EF6" customClass="RBSwappableContainerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OD8-tj-DO4"/>
                         <viewControllerLayoutGuide type="bottom" id="Jnm-jb-1vr"/>

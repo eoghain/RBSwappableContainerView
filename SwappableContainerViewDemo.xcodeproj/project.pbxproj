@@ -13,8 +13,7 @@
 		544765A21B0546F900095E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544765A01B0546F900095E75 /* Main.storyboard */; };
 		544765A41B0546F900095E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544765A31B0546F900095E75 /* Images.xcassets */; };
 		544765A71B0546F900095E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544765A51B0546F900095E75 /* LaunchScreen.xib */; };
-		544765B31B0546FA00095E75 /* SwapableContainerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765B21B0546FA00095E75 /* SwapableContainerViewDemoTests.m */; };
-		544765BF1B05483700095E75 /* RBSwapableContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */; };
+		544765BF1B05483700095E75 /* RBSwappableContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765BE1B05483700095E75 /* RBSwappableContainerViewController.m */; };
 		544765C11B0577F900095E75 /* xmenData.json in Resources */ = {isa = PBXBuildFile; fileRef = 544765C01B0577F900095E75 /* xmenData.json */; };
 		544765C41B05784400095E75 /* ComicData.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765C31B05784400095E75 /* ComicData.m */; };
 		544765C71B057CB800095E75 /* ComicImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765C61B057CB800095E75 /* ComicImageViewController.m */; };
@@ -49,10 +48,8 @@
 		544765A31B0546F900095E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		544765A61B0546F900095E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		544765AC1B0546F900095E75 /* SwapableContainerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapableContainerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		544765B11B0546FA00095E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		544765B21B0546FA00095E75 /* SwapableContainerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapableContainerViewDemoTests.m; sourceTree = "<group>"; };
-		544765BD1B05483700095E75 /* RBSwapableContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSwapableContainerViewController.h; sourceTree = "<group>"; };
-		544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSwapableContainerViewController.m; sourceTree = "<group>"; };
+		544765BD1B05483700095E75 /* RBSwappableContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSwappableContainerViewController.h; sourceTree = "<group>"; };
+		544765BE1B05483700095E75 /* RBSwappableContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSwappableContainerViewController.m; sourceTree = "<group>"; };
 		544765C01B0577F900095E75 /* xmenData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = xmenData.json; sourceTree = "<group>"; };
 		544765C21B05784400095E75 /* ComicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicData.h; sourceTree = "<group>"; };
 		544765C31B05784400095E75 /* ComicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicData.m; sourceTree = "<group>"; };
@@ -94,8 +91,7 @@
 			children = (
 				544765C81B0674C700095E75 /* fonts */,
 				544765BC1B05471200095E75 /* Classes */,
-				544765951B0546F900095E75 /* SwapableContainerViewDemo */,
-				544765AF1B0546F900095E75 /* SwapableContainerViewDemoTests */,
+				544765951B0546F900095E75 /* SwappableContainerViewDemo */,
 				544765941B0546F900095E75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		544765951B0546F900095E75 /* SwapableContainerViewDemo */ = {
+		544765951B0546F900095E75 /* SwappableContainerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				5447659A1B0546F900095E75 /* AppDelegate.h */,
@@ -130,7 +126,7 @@
 				544765A51B0546F900095E75 /* LaunchScreen.xib */,
 				544765961B0546F900095E75 /* Supporting Files */,
 			);
-			path = SwapableContainerViewDemo;
+			path = SwappableContainerViewDemo;
 			sourceTree = "<group>";
 		};
 		544765961B0546F900095E75 /* Supporting Files */ = {
@@ -142,28 +138,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		544765AF1B0546F900095E75 /* SwapableContainerViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				544765B21B0546FA00095E75 /* SwapableContainerViewDemoTests.m */,
-				544765B01B0546FA00095E75 /* Supporting Files */,
-			);
-			path = SwapableContainerViewDemoTests;
-			sourceTree = "<group>";
-		};
-		544765B01B0546FA00095E75 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				544765B11B0546FA00095E75 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		544765BC1B05471200095E75 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				544765BD1B05483700095E75 /* RBSwapableContainerViewController.h */,
-				544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */,
+				544765BD1B05483700095E75 /* RBSwappableContainerViewController.h */,
+				544765BE1B05483700095E75 /* RBSwappableContainerViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -185,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		544765921B0546F900095E75 /* SwapableContainerViewDemo */ = {
+		544765921B0546F900095E75 /* SwappableContainerViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 544765B61B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwapableContainerViewDemo" */;
+			buildConfigurationList = 544765B61B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwappableContainerViewDemo" */;
 			buildPhases = (
 				5447658F1B0546F900095E75 /* Sources */,
 				544765901B0546F900095E75 /* Frameworks */,
@@ -198,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = SwapableContainerViewDemo;
+			name = SwappableContainerViewDemo;
 			productName = SwapableContainerViewDemo;
 			productReference = 544765931B0546F900095E75 /* SwapableContainerViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		544765AB1B0546F900095E75 /* SwapableContainerViewDemoTests */ = {
+		544765AB1B0546F900095E75 /* SwappableContainerViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 544765B91B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwapableContainerViewDemoTests" */;
+			buildConfigurationList = 544765B91B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwappableContainerViewDemoTests" */;
 			buildPhases = (
 				544765A81B0546F900095E75 /* Sources */,
 				544765A91B0546F900095E75 /* Frameworks */,
@@ -216,7 +195,7 @@
 			dependencies = (
 				544765AE1B0546F900095E75 /* PBXTargetDependency */,
 			);
-			name = SwapableContainerViewDemoTests;
+			name = SwappableContainerViewDemoTests;
 			productName = SwapableContainerViewDemoTests;
 			productReference = 544765AC1B0546F900095E75 /* SwapableContainerViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -239,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5447658E1B0546F900095E75 /* Build configuration list for PBXProject "SwapableContainerViewDemo" */;
+			buildConfigurationList = 5447658E1B0546F900095E75 /* Build configuration list for PBXProject "SwappableContainerViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				544765921B0546F900095E75 /* SwapableContainerViewDemo */,
-				544765AB1B0546F900095E75 /* SwapableContainerViewDemoTests */,
+				544765921B0546F900095E75 /* SwappableContainerViewDemo */,
+				544765AB1B0546F900095E75 /* SwappableContainerViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +292,7 @@
 				544765C41B05784400095E75 /* ComicData.m in Sources */,
 				5447659C1B0546F900095E75 /* AppDelegate.m in Sources */,
 				544765991B0546F900095E75 /* main.m in Sources */,
-				544765BF1B05483700095E75 /* RBSwapableContainerViewController.m in Sources */,
+				544765BF1B05483700095E75 /* RBSwappableContainerViewController.m in Sources */,
 				544765DA1B067C4A00095E75 /* NSString+SwappableDemo.m in Sources */,
 				544765E11B069F6800095E75 /* ComicPriceTableViewController.m in Sources */,
 			);
@@ -323,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544765B31B0546FA00095E75 /* SwapableContainerViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +310,7 @@
 /* Begin PBXTargetDependency section */
 		544765AE1B0546F900095E75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 544765921B0546F900095E75 /* SwapableContainerViewDemo */;
+			target = 544765921B0546F900095E75 /* SwappableContainerViewDemo */;
 			targetProxy = 544765AD1B0546F900095E75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,7 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwapableContainerViewDemo/Info.plist;
+				INFOPLIST_FILE = SwappableContainerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -453,7 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwapableContainerViewDemo/Info.plist;
+				INFOPLIST_FILE = SwappableContainerViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5447658E1B0546F900095E75 /* Build configuration list for PBXProject "SwapableContainerViewDemo" */ = {
+		5447658E1B0546F900095E75 /* Build configuration list for PBXProject "SwappableContainerViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				544765B41B0546FA00095E75 /* Debug */,
@@ -505,21 +483,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		544765B61B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwapableContainerViewDemo" */ = {
+		544765B61B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwappableContainerViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				544765B71B0546FA00095E75 /* Debug */,
 				544765B81B0546FA00095E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		544765B91B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwapableContainerViewDemoTests" */ = {
+		544765B91B0546FA00095E75 /* Build configuration list for PBXNativeTarget "SwappableContainerViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				544765BA1B0546FA00095E75 /* Debug */,
 				544765BB1B0546FA00095E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

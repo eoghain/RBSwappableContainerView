@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  SwapableContainerViewDemo
+//  SwappableContainerViewDemo
 //
 //  Created by Rob Booth on 5/14/15.
 //  Copyright (c) 2015 Rob Booth. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "RBSwapableContainerViewController.h"
+#import "RBSwappableContainerViewController.h"
 #import "ComicData.h"
 #import "ComicImageViewController.h"
 #import "ComicDescriptionViewController.h"
@@ -21,9 +21,9 @@
 @end
 
 
-@interface ViewController ()< RBSwapableContainerDelegate >
+@interface ViewController ()< RBSwappableContainerDelegate >
 
-@property (strong, nonatomic) RBSwapableContainerViewController * swapVC;
+@property (strong, nonatomic) RBSwappableContainerViewController * swapVC;
 @property (strong, nonatomic) NSArray * comicData;
 @property (strong, nonatomic) NSDictionary * currentComic;
 @property (assign, nonatomic) NSInteger currentIndex;
@@ -145,13 +145,13 @@
     [self updateViewControllers];
 }
 
-#pragma mark - RBSwapableContainerViewController Delegate
+#pragma mark - RBSwappableContainerViewController Delegate
 
-- (void)animationEndedForcontainerViewController:(RBSwapableContainerViewController *)containerViewController
+- (void)animationEndedForcontainerViewController:(RBSwappableContainerViewController *)containerViewController
 {
 }
 
-- (id<UIViewControllerAnimatedTransitioning>)containerViewController:(RBSwapableContainerViewController *)containerViewController animationControllerForTransitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController
+- (id<UIViewControllerAnimatedTransitioning>)containerViewController:(RBSwappableContainerViewController *)containerViewController animationControllerForTransitionFromViewController:(UIViewController *)fromViewController toViewController:(UIViewController *)toViewController
 {
     if (fromViewController == self.comicImageVC)
     {
@@ -170,11 +170,11 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"embedSwapableViewController"])
+    if ([segue.identifier isEqualToString:@"embedSwappableViewController"])
     {
         [self loadContainedViewControllers];
         
-        RBSwapableContainerViewController * swapVC = segue.destinationViewController;
+        RBSwappableContainerViewController * swapVC = segue.destinationViewController;
         
         swapVC.selectedIndex = 0;
         swapVC.delegate = self;
