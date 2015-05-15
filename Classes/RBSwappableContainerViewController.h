@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Rob Booth. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
 @class  RBSwappableContainerViewController;
 
@@ -19,7 +19,7 @@
 
 @end
 
-@interface RBSwappableContainerViewController : ViewController
+@interface RBSwappableContainerViewController : UIViewController
 
 @property (weak, nonatomic) id<RBSwappableContainerDelegate> delegate;
 @property (strong, nonatomic) NSArray * viewControllers;
