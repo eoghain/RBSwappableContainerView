@@ -14,6 +14,17 @@
 		544765A41B0546F900095E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544765A31B0546F900095E75 /* Images.xcassets */; };
 		544765A71B0546F900095E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544765A51B0546F900095E75 /* LaunchScreen.xib */; };
 		544765B31B0546FA00095E75 /* SwapableContainerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765B21B0546FA00095E75 /* SwapableContainerViewDemoTests.m */; };
+		544765BF1B05483700095E75 /* RBSwapableContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */; };
+		544765C11B0577F900095E75 /* xmenData.json in Resources */ = {isa = PBXBuildFile; fileRef = 544765C01B0577F900095E75 /* xmenData.json */; };
+		544765C41B05784400095E75 /* ComicData.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765C31B05784400095E75 /* ComicData.m */; };
+		544765C71B057CB800095E75 /* ComicImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765C61B057CB800095E75 /* ComicImageViewController.m */; };
+		544765CB1B0674C700095E75 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 544765C91B0674C700095E75 /* config.json */; };
+		544765CC1B0674C700095E75 /* swappable_demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 544765CA1B0674C700095E75 /* swappable_demo.ttf */; };
+		544765CF1B06754D00095E75 /* fontelloNSStringCategoryGenerator.py in Resources */ = {isa = PBXBuildFile; fileRef = 544765CE1B06754D00095E75 /* fontelloNSStringCategoryGenerator.py */; };
+		544765DA1B067C4A00095E75 /* NSString+SwappableDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765D71B067C4A00095E75 /* NSString+SwappableDemo.m */; };
+		544765DB1B067C4A00095E75 /* SwappableDemoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765D91B067C4A00095E75 /* SwappableDemoIconView.m */; };
+		544765DE1B069D2300095E75 /* ComicDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765DD1B069D2300095E75 /* ComicDescriptionViewController.m */; };
+		544765E11B069F6800095E75 /* ComicPriceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544765E01B069F6800095E75 /* ComicPriceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,24 @@
 		544765AC1B0546F900095E75 /* SwapableContainerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapableContainerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		544765B11B0546FA00095E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544765B21B0546FA00095E75 /* SwapableContainerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapableContainerViewDemoTests.m; sourceTree = "<group>"; };
+		544765BD1B05483700095E75 /* RBSwapableContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBSwapableContainerViewController.h; sourceTree = "<group>"; };
+		544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBSwapableContainerViewController.m; sourceTree = "<group>"; };
+		544765C01B0577F900095E75 /* xmenData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = xmenData.json; sourceTree = "<group>"; };
+		544765C21B05784400095E75 /* ComicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicData.h; sourceTree = "<group>"; };
+		544765C31B05784400095E75 /* ComicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicData.m; sourceTree = "<group>"; };
+		544765C51B057CB800095E75 /* ComicImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicImageViewController.h; sourceTree = "<group>"; };
+		544765C61B057CB800095E75 /* ComicImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicImageViewController.m; sourceTree = "<group>"; };
+		544765C91B0674C700095E75 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		544765CA1B0674C700095E75 /* swappable_demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swappable_demo.ttf; sourceTree = "<group>"; };
+		544765CE1B06754D00095E75 /* fontelloNSStringCategoryGenerator.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = fontelloNSStringCategoryGenerator.py; sourceTree = "<group>"; };
+		544765D61B067C4A00095E75 /* NSString+SwappableDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SwappableDemo.h"; sourceTree = "<group>"; };
+		544765D71B067C4A00095E75 /* NSString+SwappableDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SwappableDemo.m"; sourceTree = "<group>"; };
+		544765D81B067C4A00095E75 /* SwappableDemoIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwappableDemoIconView.h; sourceTree = "<group>"; };
+		544765D91B067C4A00095E75 /* SwappableDemoIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwappableDemoIconView.m; sourceTree = "<group>"; };
+		544765DC1B069D2300095E75 /* ComicDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicDescriptionViewController.h; sourceTree = "<group>"; };
+		544765DD1B069D2300095E75 /* ComicDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicDescriptionViewController.m; sourceTree = "<group>"; };
+		544765DF1B069F6800095E75 /* ComicPriceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicPriceTableViewController.h; sourceTree = "<group>"; };
+		544765E01B069F6800095E75 /* ComicPriceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicPriceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,8 @@
 		5447658A1B0546F900095E75 = {
 			isa = PBXGroup;
 			children = (
+				544765C81B0674C700095E75 /* fonts */,
+				544765BC1B05471200095E75 /* Classes */,
 				544765951B0546F900095E75 /* SwapableContainerViewDemo */,
 				544765AF1B0546F900095E75 /* SwapableContainerViewDemoTests */,
 				544765941B0546F900095E75 /* Products */,
@@ -85,6 +116,15 @@
 				5447659B1B0546F900095E75 /* AppDelegate.m */,
 				5447659D1B0546F900095E75 /* ViewController.h */,
 				5447659E1B0546F900095E75 /* ViewController.m */,
+				544765C21B05784400095E75 /* ComicData.h */,
+				544765C31B05784400095E75 /* ComicData.m */,
+				544765C51B057CB800095E75 /* ComicImageViewController.h */,
+				544765C61B057CB800095E75 /* ComicImageViewController.m */,
+				544765DC1B069D2300095E75 /* ComicDescriptionViewController.h */,
+				544765DD1B069D2300095E75 /* ComicDescriptionViewController.m */,
+				544765DF1B069F6800095E75 /* ComicPriceTableViewController.h */,
+				544765E01B069F6800095E75 /* ComicPriceTableViewController.m */,
+				544765C01B0577F900095E75 /* xmenData.json */,
 				544765A01B0546F900095E75 /* Main.storyboard */,
 				544765A31B0546F900095E75 /* Images.xcassets */,
 				544765A51B0546F900095E75 /* LaunchScreen.xib */,
@@ -119,6 +159,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		544765BC1B05471200095E75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				544765BD1B05483700095E75 /* RBSwapableContainerViewController.h */,
+				544765BE1B05483700095E75 /* RBSwapableContainerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		544765C81B0674C700095E75 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				544765D61B067C4A00095E75 /* NSString+SwappableDemo.h */,
+				544765D71B067C4A00095E75 /* NSString+SwappableDemo.m */,
+				544765D81B067C4A00095E75 /* SwappableDemoIconView.h */,
+				544765D91B067C4A00095E75 /* SwappableDemoIconView.m */,
+				544765C91B0674C700095E75 /* config.json */,
+				544765CA1B0674C700095E75 /* swappable_demo.ttf */,
+				544765CE1B06754D00095E75 /* fontelloNSStringCategoryGenerator.py */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +192,7 @@
 				5447658F1B0546F900095E75 /* Sources */,
 				544765901B0546F900095E75 /* Frameworks */,
 				544765911B0546F900095E75 /* Resources */,
+				544765CD1B06751A00095E75 /* Run Script - Generat Font Categories */,
 			);
 			buildRules = (
 			);
@@ -201,7 +265,11 @@
 			files = (
 				544765A21B0546F900095E75 /* Main.storyboard in Resources */,
 				544765A71B0546F900095E75 /* LaunchScreen.xib in Resources */,
+				544765CB1B0674C700095E75 /* config.json in Resources */,
 				544765A41B0546F900095E75 /* Images.xcassets in Resources */,
+				544765C11B0577F900095E75 /* xmenData.json in Resources */,
+				544765CC1B0674C700095E75 /* swappable_demo.ttf in Resources */,
+				544765CF1B06754D00095E75 /* fontelloNSStringCategoryGenerator.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +282,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		544765CD1B06751A00095E75 /* Run Script - Generat Font Categories */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/fonts/config.json",
+			);
+			name = "Run Script - Generat Font Categories";
+			outputPaths = (
+				"$(SRCROOT)/fonts/NSString+Swappable_demo.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python $SRCROOT/fonts/fontelloNSStringCategoryGenerator.py $SRCROOT/fonts/config.json $SRCROOT/fonts";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5447658F1B0546F900095E75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544765DE1B069D2300095E75 /* ComicDescriptionViewController.m in Sources */,
+				544765C71B057CB800095E75 /* ComicImageViewController.m in Sources */,
 				5447659F1B0546F900095E75 /* ViewController.m in Sources */,
+				544765DB1B067C4A00095E75 /* SwappableDemoIconView.m in Sources */,
+				544765C41B05784400095E75 /* ComicData.m in Sources */,
 				5447659C1B0546F900095E75 /* AppDelegate.m in Sources */,
 				544765991B0546F900095E75 /* main.m in Sources */,
+				544765BF1B05483700095E75 /* RBSwapableContainerViewController.m in Sources */,
+				544765DA1B067C4A00095E75 /* NSString+SwappableDemo.m in Sources */,
+				544765E11B069F6800095E75 /* ComicPriceTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
